@@ -81,5 +81,5 @@
   
    * **Up-arrow** on your keyboard: recall the last command that was run. 
    
-<span style="color:black">some *black* text</span>
+
 
