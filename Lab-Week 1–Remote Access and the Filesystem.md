@@ -3,15 +3,15 @@
 
 ---
 
-## **1. Installing VScode**
+### **1. Installing VScode**
 
    Go to the [`Visual Studio Code website`](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer.
 
    <img width="721" alt="Screen Shot 2022-09-29 at 11 37 54 AM" src="https://user-images.githubusercontent.com/114208205/193116539-fbbb0e80-c3a5-4aae-b5d7-affa8531d98c.png">
 
-## **2. Remotely Connecting**
+### **2. Remotely Connecting**
 
-   * First, open a terminal in VSCode and connect to the server ieng6: `$ ssh cs15lfa22@ieng6.ucsd.edu`
+   * First, ==open a terminal== in VSCode and connect to the server ieng6: `$ ssh cs15lfa22@ieng6.ucsd.edu`
 
    * Use your **username** instead of `cs15lfa22`. You will be required a password to log in your CSE15L account.
 
@@ -22,7 +22,7 @@
      ![Screen Shot 2022-09-29 at 2 20 45 PM](https://user-images.githubusercontent.com/114208205/193175298-f6112f84-5a54-4ee9-a746-94dd88edd63b.png)
 
 
-## **3. Trying Some Commands**
+### **3. Trying Some Commands**
 
    Try to type these commands below:
 
@@ -47,7 +47,7 @@
       <img width="557" alt="Screen Shot 2022-09-29 at 4 21 06 PM" src="https://user-images.githubusercontent.com/114208205/193176254-8745b7a9-3036-466b-8f7b-5cf4f985d7eb.png">
 
 
-## **4. Moving Files with scp**
+### **4. Moving Files with scp**
 
    * Create a file on your computer. Examlpe, I have a file named `WhereAmI.java`.
    * Change direction to the directory of the file you just created by using `$ cd <the directory of the file>`. For example, my file is saved on ~/Documents -> I will type `$cd Documents`.
@@ -57,7 +57,7 @@
      <img width="573" alt="Screen Shot 2022-09-29 at 4 48 49 PM" src="https://user-images.githubusercontent.com/114208205/193184037-49b7cc5d-8fb4-417d-8de7-8794bec920ee.png">
 
 
-## **5. Setting an SSH Key**
+### **5. Setting an SSH Key**
 
    * On your computer, run this command `$ ssh-keygen` to set up the keygen. 
      I already set this up in class CSE30, so I can not attach a screenshot of instructions at this step.
@@ -69,7 +69,7 @@
      <img width="480" alt="Screen Shot 2022-09-29 at 5 25 33 PM" src="https://user-images.githubusercontent.com/114208205/193185005-fd25e657-d6cd-4812-bd8f-493b64e836f7.png">
 
 
-## **6. Optimizing Remote Running**
+### **6. Optimizing Remote Running**
 
    * Run commands directly on the remote server: `$ ssh cs15lfa22@ieng6.ucsd.edu "ls"`
   
