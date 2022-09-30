@@ -80,5 +80,6 @@
      <img width="571" alt="Screen Shot 2022-09-29 at 5 45 42 PM" src="https://user-images.githubusercontent.com/114208205/193185880-bfefc8ff-dece-4a36-b9b1-1ad7effd7219.png">
   
    * **Up-arrow** on your keyboard: recall the last command that was run. 
-
+   
+<span style="color:black">some *black* text</span>
 
